@@ -1,3 +1,16 @@
+import tajMahalImg from '@/assets/taj-mahal.jpg';
+import hampiImg from '@/assets/hampi-ruins.jpg';
+import amberFortImg from '@/assets/amber-fort-main.jpg';
+import konarkTempleImg from '@/assets/konark-temple.jpg';
+import meenakshiTempleImg from '@/assets/meenakshi-temple-main.jpg';
+import mysorePalaceImg from '@/assets/mysore-palace-main.jpg';
+import khajurahoImg from '@/assets/khajuraho-main.jpg';
+import varanasiImg from '@/assets/varanasi-ghats.jpg';
+import templesCategory from '@/assets/temples-category.jpg';
+import fortsCategory from '@/assets/forts-category.jpg';
+import festivalsCategory from '@/assets/festivals-category.jpg';
+import heritageCitiesCategory from '@/assets/heritage-cities-category.jpg';
+
 export interface Place {
   id: string;
   name: string;
@@ -28,8 +41,8 @@ export const places: Place[] = [
     description: 'The Taj Mahal is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, India. It was commissioned in 1632 by the Mughal emperor Shah Jahan to house the tomb of his favorite wife, Mumtaz Mahal.',
     history: 'Construction began in 1632 and was completed around 1653. It is believed that over 20,000 artisans worked on the structure. The principal designer is thought to have been Ustad Ahmad Lahori, an Indian of Persian descent.',
     significance: 'The Taj Mahal is considered the finest example of Mughal architecture, a style that combines Indian, Persian, and Islamic elements. In 1983, it became a UNESCO World Heritage Site.',
-    image: '/src/assets/hero-taj-mahal.jpg',
-    gallery: ['/src/assets/hero-taj-mahal.jpg'],
+    image: tajMahalImg,
+    gallery: [tajMahalImg],
     bestTime: 'October to March',
     entryFee: '₹50 for Indians, ₹1,100 for foreigners',
     timings: '6:00 AM to 6:30 PM (Closed on Fridays)',
@@ -47,8 +60,8 @@ export const places: Place[] = [
     description: 'Hampi is an ancient village in the south Indian state of Karnataka. It is the site of the former capital of the Vijayanagara Empire, set amid the ruins of ancient temples and palace structures.',
     history: 'Founded in the 14th century, Hampi was the capital of the prosperous Vijayanagara Empire. At its peak, it was the second-largest medieval city in the world after Beijing.',
     significance: 'Hampi is a UNESCO World Heritage Site, recognized for its outstanding collection of temple ruins and ancient monuments. The site showcases the grandeur of the Vijayanagara Empire.',
-    image: '/src/assets/hampi.jpg',
-    gallery: ['/src/assets/hampi.jpg'],
+    image: hampiImg,
+    gallery: [hampiImg],
     bestTime: 'October to February',
     entryFee: '₹40 for Indians, ₹600 for foreigners',
     timings: '6:00 AM to 6:00 PM',
@@ -66,8 +79,8 @@ export const places: Place[] = [
     description: 'Amber Fort is a fort located in Amber, Rajasthan, India. Known for its artistic Hindu style elements, the fort stands overlooking Maota Lake and is the principal tourist attraction in Jaipur.',
     history: 'Built by Raja Man Singh I in 1592, the fort was later expanded by his descendants over a period of 150 years. It served as the capital of the Kachwaha Rajputs.',
     significance: 'The fort is known for its artistic Hindu elements with large ramparts, series of gates and cobbled paths. It is part of the Hill Forts of Rajasthan UNESCO World Heritage Site.',
-    image: '/src/assets/amber-fort.jpg',
-    gallery: ['/src/assets/amber-fort.jpg'],
+    image: amberFortImg,
+    gallery: [amberFortImg],
     bestTime: 'October to March',
     entryFee: '₹100 for Indians, ₹500 for foreigners',
     timings: '8:00 AM to 5:30 PM',
@@ -85,8 +98,8 @@ export const places: Place[] = [
     description: 'The Konark Sun Temple is a 13th-century CE Sun temple at Konark, about 35 km from Puri. It is shaped like a giant chariot with elaborately carved stone wheels, pillars, and walls.',
     history: 'Built by King Narasimhadeva I of the Eastern Ganga Dynasty around 1250 CE, the temple was designed as a massive chariot of the Sun God Surya, with twelve pairs of wheels.',
     significance: "The temple is a UNESCO World Heritage Site and is considered a masterpiece of Kalinga architecture. The temple's most iconic features are its 24 intricately carved stone wheels.",
-    image: '/src/assets/konark-sun-temple.jpg',
-    gallery: ['/src/assets/konark-sun-temple.jpg'],
+    image: konarkTempleImg,
+    gallery: [konarkTempleImg],
     bestTime: 'October to March',
     entryFee: '₹40 for Indians, ₹600 for foreigners',
     timings: '6:00 AM to 8:00 PM',
@@ -104,8 +117,8 @@ export const places: Place[] = [
     description: 'Meenakshi Temple is a historic Hindu temple located on the southern bank of the Vaigai River in Madurai, Tamil Nadu. It is dedicated to Goddess Meenakshi and Lord Sundareswarar.',
     history: 'The original temple was built by Kulasekara Pandya, but the present structure was built between 1623-1655 CE. The temple has been continuously maintained and expanded over centuries.',
     significance: 'The temple is one of the most important pilgrimage centers in South India. Its 14 gateway towers, called gopurams, are adorned with thousands of mythological figures.',
-    image: '/src/assets/meenakshi-temple.jpg',
-    gallery: ['/src/assets/meenakshi-temple.jpg'],
+    image: meenakshiTempleImg,
+    gallery: [meenakshiTempleImg],
     bestTime: 'October to March',
     entryFee: 'Free (Camera fee: ₹50)',
     timings: '5:00 AM to 12:30 PM, 4:00 PM to 10:00 PM',
@@ -123,8 +136,8 @@ export const places: Place[] = [
     description: 'Mysore Palace is a historical palace and royal residence located within the Old Fort in Mysuru. It is the official residence of the Wadiyar dynasty and the seat of the Kingdom of Mysore.',
     history: 'The current palace was constructed between 1897 and 1912, after the old wooden palace was destroyed by fire. It was designed by British architect Henry Irwin.',
     significance: 'The palace is one of the most visited tourist attractions in India. During the Dasara festival, the palace is illuminated with nearly 100,000 light bulbs.',
-    image: '/src/assets/mysore-palace.jpg',
-    gallery: ['/src/assets/mysore-palace.jpg'],
+    image: mysorePalaceImg,
+    gallery: [mysorePalaceImg],
     bestTime: 'September to February',
     entryFee: '₹70 for Indians, ₹200 for foreigners',
     timings: '10:00 AM to 5:30 PM',
@@ -142,8 +155,8 @@ export const places: Place[] = [
     description: 'The Khajuraho Group of Monuments is a group of Hindu and Jain temples famous for their nagara-style architectural symbolism and erotic sculptures.',
     history: 'Built between 950 and 1050 CE by the Chandela dynasty, there were originally 85 temples, of which only about 25 temples remain today, spread over 6 square kilometers.',
     significance: 'The temples are a UNESCO World Heritage Site and represent one of the most outstanding examples of medieval art and architecture in India.',
-    image: '/src/assets/khajuraho.jpg',
-    gallery: ['/src/assets/khajuraho.jpg'],
+    image: khajurahoImg,
+    gallery: [khajurahoImg],
     bestTime: 'October to March',
     entryFee: '₹40 for Indians, ₹600 for foreigners',
     timings: 'Sunrise to Sunset',
@@ -161,8 +174,8 @@ export const places: Place[] = [
     description: 'Varanasi is one of the oldest continuously inhabited cities in the world. The ghats of Varanasi are embankments along the Ganges River where pilgrims bathe and perform rituals.',
     history: 'Varanasi has been a cultural and religious center since at least the 11th century BCE. It was known to the Greeks as Benaras and to the Chinese pilgrims as Polonisi.',
     significance: 'Varanasi is considered one of the holiest cities in Hinduism, Buddhism, and Jainism. The Ganga Aarti performed at Dashashwamedh Ghat is a major spiritual experience.',
-    image: '/src/assets/heritage-cities-category.jpg',
-    gallery: ['/src/assets/heritage-cities-category.jpg'],
+    image: varanasiImg,
+    gallery: [varanasiImg],
     bestTime: 'October to March',
     entryFee: 'Free',
     timings: 'Open 24 hours',
@@ -174,11 +187,11 @@ export const places: Place[] = [
 ];
 
 export const categories = [
-  { id: 'temple', name: 'Temples', icon: '🛕', color: 'saffron' },
-  { id: 'fort', name: 'Forts & Palaces', icon: '🏰', color: 'terracotta' },
-  { id: 'heritage', name: 'UNESCO Heritage Sites', icon: '🏛️', color: 'deep-green' },
-  { id: 'festival', name: 'Festivals & Traditions', icon: '🎉', color: 'gold' },
-  { id: 'city', name: 'Cultural Cities', icon: '🌆', color: 'maroon' }
+  { id: 'temple', name: 'Temples', icon: '🛕', color: 'saffron', image: templesCategory },
+  { id: 'fort', name: 'Forts & Palaces', icon: '🏰', color: 'terracotta', image: fortsCategory },
+  { id: 'heritage', name: 'UNESCO Heritage Sites', icon: '🏛️', color: 'deep-green', image: tajMahalImg },
+  { id: 'festival', name: 'Festivals & Traditions', icon: '🎉', color: 'gold', image: festivalsCategory },
+  { id: 'city', name: 'Cultural Cities', icon: '🌆', color: 'maroon', image: heritageCitiesCategory }
 ];
 
 export const states = [

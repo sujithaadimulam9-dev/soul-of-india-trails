@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Search, MapPin, Calendar } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useNavigate } from 'react-router-dom';
-import heroImage from '@/assets/hero-taj-mahal.jpg';
+import heroImage from '@/assets/taj-mahal.jpg';
 
 const HeroSection = () => {
   const [searchQuery, setSearchQuery] = useState('');
